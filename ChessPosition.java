@@ -22,8 +22,8 @@ public class ChessPosition {
     }
 
     public ChessPosition(int row, int col) {
-        this.row = row;
-        this.col = col;
+        this.row() = row
+        this.col() = col
     }
 
     /**
@@ -31,14 +31,15 @@ public class ChessPosition {
      * 1 codes for the bottom row
      */
     public int getRow() {
-        return this.row;
+        return row;
     }
 
     /**
      * @return which column this position is in
      * 1 codes for the left row
      */
+
     public int getColumn() {
-        return this.col;
+       return col;
     }
 }
